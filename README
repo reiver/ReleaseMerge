@@ -1,0 +1,8 @@
+RELEASE MERGE
+
+    Creates a build system that makes it so you can create a single file install/upgrade script.
+
+
+BUILD
+
+    ./build-releasemerge > releasemerge.php

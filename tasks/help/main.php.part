@@ -1,0 +1,16 @@
+    function task_help($args=null)
+    {
+?>
+
+Usage:
+  php releasemerge.php task_name [argument]
+
+Tasks:
+  install       -  Installs new ReleaseMerge based project.
+  upgrade       -  Upgrade existing ReleaseMerge based project.
+  help          -  Displays this help message.
+  build         -  ReleaseMerges the code base and sends it to stdout.
+
+<?php
+    }
+

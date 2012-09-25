@@ -1,0 +1,11 @@
+    function task_build($args=null)
+    {
+        $path = dirname(__FILE__).'/build/all/main.php';
+
+        $cmd = 'php '.$path;
+
+        $s = `$cmd`;
+
+        print($s);
+    }
+
