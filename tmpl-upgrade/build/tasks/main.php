@@ -52,7 +52,7 @@
                     continue;
                 }
 
-                if (  '.svn' == $x  ) {
+                if (  '.svn' == $x || '.git' == $x || '.gitignore' == $x  ) {
             /////// CONTINUE
                     continue;
                 }

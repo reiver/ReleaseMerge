@@ -63,7 +63,7 @@
 
             while (  FALSE !== ($x = $dir->read())  ) {
 
-                if (  '.' == $x || '..' == $x || '.svn' == $x  ) {
+                if (  '.' == $x || '..' == $x || '.svn' == $x || '.git' == $x || '.gitignore' == $x  ) {
             /////// CONTINUE
                     continue;
                 }
